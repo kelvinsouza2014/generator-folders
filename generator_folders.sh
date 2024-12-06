@@ -4,7 +4,7 @@ read -p "Pressione 'Enter'..."
 
 read -p "Quantas pastas você deseja criar? " num_folders
 if ! [[ "$num_folders" =~ ^[1-50]+$ ]] then
-    echo "Insira o número de pastas (máximo 50)"
+    echo "Insira o número de pastas"
     exit 1
 fi
 
